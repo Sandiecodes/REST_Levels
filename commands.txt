@@ -1,0 +1,8 @@
+Add Data
+curl -X POST -H "Content-Type: application/json" -d '{"text": "Hello", "time": "9"}' http://localhost:8080/posts
+
+Update
+curl -X PUT -H "Content-Type: application/json" -d '{"text": "Update", "time": "5"}' http://localhost:8080/posts/1
+
+Delete
+curl -X DELETE http://localhost:8080/books/1
